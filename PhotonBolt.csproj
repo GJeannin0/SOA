@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{09D3004C-4554-9ED8-52D6-620789735D09}</ProjectGuid>
+    <ProjectGuid>{F518614D-C1B4-C31D-1434-B938B1BFA558}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonBolt</AssemblyName>
@@ -85,10 +85,10 @@
     <None Include="Assets\Photon\PhotonBolt\assemblies\editor\bolt.compiler.xml" />
     <None Include="Assets\Photon\PhotonBolt\bolt_sdk.txt" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity Installs/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -292,43 +292,43 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="bolt">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/bolt.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/bolt.dll</HintPath>
     </Reference>
     <Reference Include="bolt.user">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/bolt.user.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/bolt.user.dll</HintPath>
     </Reference>
     <Reference Include="bolt.compiler">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/editor/bolt.compiler.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/editor/bolt.compiler.dll</HintPath>
     </Reference>
     <Reference Include="bolt.editor">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/editor/bolt.editor.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/editor/bolt.editor.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/editor/protobuf-net.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/editor/protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="udpkit.common">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.common.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.common.dll</HintPath>
     </Reference>
     <Reference Include="udpkit">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.dll</HintPath>
     </Reference>
     <Reference Include="udpkit.platform.dotnet">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.dotnet.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.dotnet.dll</HintPath>
     </Reference>
     <Reference Include="udpkit.platform.null">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.null.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.null.dll</HintPath>
     </Reference>
     <Reference Include="udpkit.platform.photon">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.photon.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.photon.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity Installs/2019.2.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -684,7 +684,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{FF50FAFC-2744-7A83-5DCB-FB307B4EE83F}</Project>
+      <Project>{F35CD067-4FE5-34B0-429C-447389C8FBC0}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
   </ItemGroup>

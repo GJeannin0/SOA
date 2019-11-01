@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C6731677-E294-8F6C-9082-D636CF47EDCF}</ProjectGuid>
+    <ProjectGuid>{C330732A-0927-3DA6-9DA0-6ACD29C1B136}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -91,31 +91,31 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity Installs/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -295,34 +295,34 @@
       <HintPath>C:/Program Files/Unity Installs/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="bolt">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/bolt.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/bolt.dll</HintPath>
     </Reference>
     <Reference Include="bolt.user">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/bolt.user.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/bolt.user.dll</HintPath>
     </Reference>
     <Reference Include="udpkit.common">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.common.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.common.dll</HintPath>
     </Reference>
     <Reference Include="udpkit">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.dll</HintPath>
     </Reference>
     <Reference Include="udpkit.platform.dotnet">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.dotnet.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.dotnet.dll</HintPath>
     </Reference>
     <Reference Include="udpkit.platform.null">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.null.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.null.dll</HintPath>
     </Reference>
     <Reference Include="udpkit.platform.photon">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.photon.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.photon.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Assets/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/guill/OneDrive/Bureau/Repository/SOA/Assets/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity Installs/2019.2.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -678,19 +678,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonBolt.csproj">
-      <Project>{09D3004C-4554-9ED8-52D6-620789735D09}</Project>
+      <Project>{F518614D-C1B4-C31D-1434-B938B1BFA558}</Project>
       <Name>PhotonBolt</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonWebSocket.csproj">
-      <Project>{1B1D099C-7B1F-4B7B-EEC8-D11269D882FC}</Project>
+      <Project>{4B026D34-E1B9-CFFE-6390-26404149E36C}</Project>
       <Name>PhotonWebSocket</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{FF50FAFC-2744-7A83-5DCB-FB307B4EE83F}</Project>
+      <Project>{F35CD067-4FE5-34B0-429C-447389C8FBC0}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonBolt-Editor.csproj">
-      <Project>{31974696-0339-E9D4-3B9C-1F74D1C3FFF2}</Project>
+      <Project>{33AF5056-1DEA-42D7-BB36-3334DF2C4C9A}</Project>
       <Name>PhotonBolt-Editor</Name>
     </ProjectReference>
   </ItemGroup>

@@ -175,7 +175,7 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
-      Hash: 403b48a31fcb8c6c0130a0968a2e1244
+      Hash: ce85e3925af2301f8974dd2c811d8948
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Menu
@@ -717,4 +717,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Game assets/Scenes/Menu.unity
   - Assets/Game assets/Scenes/PlayScene.unity
-  playerPath: C:/Users/guill/OneDrive/Bureau/Repository/Spiner-Octogon-Arena/Builds/Spiner.exe
+  playerPath: C:/Users/guill/OneDrive/Bureau/Repository/SOA/Builds/Spiner.exe

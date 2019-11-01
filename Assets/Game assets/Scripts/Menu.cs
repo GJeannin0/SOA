@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UdpKit;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,15 +8,37 @@ using UnityEngine.SceneManagement;
 public class Menu : Bolt.GlobalEventListener
 {
 	[SerializeField] private GameObject textInput;
+	[SerializeField] private GameObject menuPanel;
+	[SerializeField] private Button joinSessionButton;
 
-	public void StartClient()
+
+	[SerializeField] private float buttonSpacing;
+	private List<Button> joinSessionButtons = new List<Button>();
+
+	private bool joiningPrivate = false;
+
+
+	private void Awake()
 	{
 		BoltLauncher.StartClient();
 	}
 
+	public void StartClient()
+	{
+		if (textInput.GetComponent<Text>().text != "")
+		{
+			// BoltLauncher.StartClient();
+			joiningPrivate = true;
+		}
+	}
+
 	public void StartServer()
 	{
-		BoltLauncher.StartServer();
+		if (textInput.GetComponent<Text>().text != "")
+		{
+			BoltLauncher.Shutdown();
+			BoltLauncher.StartServer();
+		}
 	}
 
 	public override void BoltStartDone()
@@ -26,35 +49,63 @@ public class Menu : Bolt.GlobalEventListener
 			Bolt.Matchmaking.BoltMatchmaking.CreateSession(matchName, sceneToLoad: "PlayScene");
 		}
 	}
-	
 
+	// Called when a server is created or destroyed, and every few seconds
 	public override void SessionListUpdated(Map<Guid, UdpSession> sessionList)
 	{
+		string matchName = textInput.GetComponent<Text>().text;
 		bool foundSession = false;
 
 		foreach (var session in sessionList)
 		{
+			matchName = textInput.GetComponent<Text>().text;
 			UdpSession photonSession = session.Value as UdpSession;
-			string matchName = textInput.GetComponent<Text>().text;
+			if (joiningPrivate)
+			{		
+				if (session.Value.HostName == matchName)
+				{
+					Bolt.Matchmaking.BoltMatchmaking.JoinSession(matchName);
+					foundSession = true;
+					joiningPrivate = false;
+				}
 
-			if (session.Value.HostName == matchName)
-			{
-				Bolt.Matchmaking.BoltMatchmaking.JoinSession(matchName);
-				foundSession = true;
+				/*
+				if (photonSession.Source == UdpSessionSource.Photon)
+				{
+					BoltNetwork.Connect(photonSession);
+				}
+				*/
+
+
+				if (!foundSession)
+				{
+					BoltLauncher.Shutdown();
+					SceneManager.LoadScene("Menu");
+					joiningPrivate = false;
+				}
 			}
+			matchName = textInput.GetComponent<Text>().text;
+			Button joinSessionButtonClone = Instantiate(joinSessionButton);
+			joinSessionButtonClone.transform.parent = menuPanel.transform;
+			joinSessionButtonClone.transform.localPosition = new Vector3(250, buttonSpacing * joinSessionButtons.Count, 0);
+			joinSessionButtonClone.gameObject.SetActive(true);
+			joinSessionButtonClone.GetComponentInChildren<Text>().text = "Join: " + photonSession.HostName;
 
-			/*
-			if (photonSession.Source == UdpSessionSource.Photon)
-			{
-				BoltNetwork.Connect(photonSession);
-			}
-			*/
-		}
+			joinSessionButtonClone.onClick.AddListener(() => JoinSessionOfId(photonSession));
 
-		if (!foundSession)
-		{
-			BoltLauncher.Shutdown();
-			SceneManager.LoadScene("Menu");
+			joinSessionButtons.Add(joinSessionButtonClone);
 		}
+	}
+
+	public void JoinRandomRoom()
+	{
+		//BoltLauncher.StartClient();
+		Bolt.Matchmaking.BoltMatchmaking.JoinRandomSession();
+	}
+
+	public void JoinSessionOfId(UdpSession session)
+	{
+		//BoltLauncher.StartClient();
+		Bolt.Matchmaking.BoltMatchmaking.JoinSession(session.HostName);
 	}
 }
